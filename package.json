@@ -1,21 +1,28 @@
 {
-  "name": "india-history-site",
-  "private": true,
-  "version": "1.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "framer-motion": "^12.40.0",
-    "papaparse": "^5.5.3",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-router-dom": "^7.16.0"
-  },
-  "devDependencies": {
-    "vite": "^7.0.0"
-  }
+"name": "india-history-site",
+"private": true,
+"version": "1.0.0",
+"type": "module",
+
+"engines": {
+"node": "22.x"
+},
+
+"scripts": {
+"dev": "vite",
+"build": "vite build",
+"preview": "vite preview"
+},
+
+"dependencies": {
+"framer-motion": "^12.40.0",
+"papaparse": "^5.5.3",
+"react": "^19.0.0",
+"react-dom": "^19.0.0",
+"react-router-dom": "^7.16.0"
+},
+
+"devDependencies": {
+"vite": "^6.3.5"
+}
 }
