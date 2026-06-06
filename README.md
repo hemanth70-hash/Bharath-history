@@ -1,0 +1,1 @@
+# India History Timeline Starter\nDeployable on Vercel. Fill data from Excel/CSV exports.

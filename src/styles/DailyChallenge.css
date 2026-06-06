@@ -1,0 +1,70 @@
+.daily-section {
+
+  max-width: 1200px;
+
+  margin: 120px auto;
+
+  padding: 0 40px;
+}
+
+.daily-card {
+
+  background:
+    rgba(15,23,42,.75);
+
+  border:
+    1px solid rgba(255,255,255,.08);
+
+  border-radius: 24px;
+
+  padding: 40px;
+
+  text-align: center;
+
+  backdrop-filter: blur(20px);
+
+  box-shadow:
+    0 20px 60px rgba(0,0,0,.4);
+}
+
+.challenge-badge {
+
+  color: #d4a24c;
+
+  font-weight: 700;
+
+  margin-bottom: 15px;
+}
+
+.daily-card h3 {
+
+  color: white;
+
+  font-size: 2rem;
+
+  margin-bottom: 15px;
+}
+
+.daily-card p {
+
+  color: #94a3b8;
+
+  margin-bottom: 25px;
+}
+
+.daily-card button {
+
+  background: #d4a24c;
+
+  border: none;
+
+  color: black;
+
+  padding: 12px 25px;
+
+  border-radius: 12px;
+
+  cursor: pointer;
+
+  font-weight: 700;
+}

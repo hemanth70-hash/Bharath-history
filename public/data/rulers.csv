@@ -1,0 +1,10 @@
+id,empire_id,name,start_year,end_year,father,successor,achievements,description,image
+1,7,Chandragupta Maurya,-322,-297,,Bindusara,Founded Mauryan Empire,Founder of Mauryan Empire,chandragupta.jpg
+2,7,Bindusara,-297,-268,Chandragupta Maurya,Ashoka,Expanded Mauryan territory,Second Mauryan ruler,bindusara.jpg
+3,7,Ashoka,-268,-232,Bindusara,Dasharatha Maurya,Kalinga War and Buddhism,Greatest Mauryan ruler,ashoka.jpg
+4,8,Pushyamitra Shunga,-185,-149,,Agnimitra,Founded Shunga Empire,Former Mauryan general,pushyamitra.jpg
+5,11,Kanishka,127,150,,Huvishka,Spread Buddhism,Great Kushan ruler,kanishka.jpg
+6,12,Chandragupta I,320,335,,Samudragupta,Founded Gupta Empire,First Gupta emperor,chandragupta1.jpg
+7,12,Samudragupta,335,375,Chandragupta I,Chandragupta II,Military conquests,Napoleon of India,samudragupta.jpg
+8,12,Chandragupta II,375,415,Samudragupta,Kumaragupta I,Golden Age expansion,Vikramaditya,chandragupta2.jpg
+9,14,Harshavardhana,606,647,,None,Unified North India,Last great emperor of ancient India,harsha.jpg

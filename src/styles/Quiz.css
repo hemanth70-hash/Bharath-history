@@ -1,0 +1,189 @@
+.quiz-page {
+
+  min-height: 100vh;
+
+  padding-top: 140px;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+}
+
+.quiz-card,
+.quiz-result-card {
+
+  width: 800px;
+
+  max-width: 95%;
+
+  background:
+    rgba(15,23,42,.75);
+
+  backdrop-filter:
+    blur(15px);
+
+  border:
+    1px solid rgba(255,255,255,.08);
+
+  border-radius: 24px;
+
+  padding: 40px;
+
+  color: white;
+}
+
+.quiz-progress {
+
+  color: #d4a24c;
+
+  margin-bottom: 20px;
+
+  font-weight: bold;
+}
+
+.options {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 15px;
+
+  margin-top: 30px;
+}
+
+.options button {
+
+  padding: 16px;
+
+  border: none;
+
+  border-radius: 12px;
+
+  background:
+    rgba(255,255,255,.05);
+.options button {
+
+  padding: 16px;
+
+  border:
+    2px solid transparent;
+
+  border-radius: 12px;
+
+  background:
+    rgba(255,255,255,.05);
+
+  color: white;
+
+  cursor: pointer;
+
+  text-align: left;
+
+  transition:
+    all .25s ease;
+}
+  color: white;
+
+  cursor: pointer;
+
+  text-align: left;
+
+  transition: .3s;
+}
+
+.options button:hover {
+
+  background:
+    rgba(255,255,255,.12);
+}
+
+.selected {
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(212,162,76,.35),
+      rgba(241,201,121,.20)
+    ) !important;
+
+  border:
+    2px solid #d4a24c !important;
+
+  color: white !important;
+
+  box-shadow:
+    0 0 15px rgba(
+      212,
+      162,
+      76,
+      .5
+    );
+
+  transform:
+    translateX(8px);
+}
+.submit-btn {
+
+  margin-top: 25px;
+
+  padding:
+    14px 24px;
+
+  border: none;
+
+  border-radius: 12px;
+
+  background:
+    linear-gradient(
+      90deg,
+      #d4a24c,
+      #f1c979
+    );
+
+  color: black;
+
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+.correct {
+
+  margin-top: 25px;
+
+  color: #22c55e;
+
+  font-size: 1.2rem;
+}
+
+.wrong {
+
+  margin-top: 25px;
+
+  color: #ef4444;
+
+  font-size: 1.2rem;
+}
+
+.explanation {
+
+  margin-top: 15px;
+
+  color: #cbd5e1;
+
+  line-height: 1.8;
+}
+
+.quiz-loading {
+
+  color: white;
+
+  text-align: center;
+
+  padding-top: 200px;
+
+  font-size: 2rem;
+}

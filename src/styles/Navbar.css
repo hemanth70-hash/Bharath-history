@@ -1,0 +1,309 @@
+.navbar {
+
+  position: fixed;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+
+  padding:
+    18px
+    8%;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  z-index: 999;
+
+  transition: .3s;
+}
+
+.navbar-scrolled {
+
+  background:
+    rgba(
+      5,
+      8,
+      22,
+      .75
+    );
+
+  backdrop-filter:
+    blur(20px);
+
+  border-bottom:
+    1px solid
+    rgba(
+      255,
+      255,
+      255,
+      .08
+    );
+}
+
+.navbar-logo {
+
+  color: white;
+
+  font-size: 1.3rem;
+
+  font-weight: 700;
+
+  letter-spacing: .5px;
+
+  text-decoration: none;
+}
+
+.navbar-links {
+
+  display: flex;
+
+  gap: 35px;
+
+  list-style: none;
+}
+
+.navbar-links a {
+
+  text-decoration: none;
+
+  color: #94a3b8;
+
+  transition: .3s;
+
+  font-weight: 500;
+}
+
+.navbar-links a:hover {
+
+  color: #d4a24c;
+}
+
+/* =========================
+   INDIA FLAG BADGE
+========================= */
+
+.navbar-btn {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 10px;
+
+  width: 90px;
+
+  height: 46px;
+
+  border-radius: 12px;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      .04
+    );
+
+  backdrop-filter:
+    blur(12px);
+
+  box-shadow:
+    0 0 20px
+    rgba(
+      212,
+      162,
+      76,
+      .25
+    );
+
+  animation:
+    navbarGlow
+    3s
+    ease-in-out
+    infinite;
+
+  transition: .3s;
+}
+
+.navbar-btn:hover {
+
+  transform:
+    translateY(-2px);
+
+  box-shadow:
+    0 0 35px
+    rgba(
+      212,
+      162,
+      76,
+      .5
+    );
+}
+
+.india-flag {
+
+  width: 36px;
+
+  height: 24px;
+
+  border-radius: 4px;
+
+  overflow: hidden;
+
+  position: relative;
+
+  background: white;
+
+  box-shadow:
+    0 0 10px
+    rgba(
+      255,
+      255,
+      255,
+      .2
+    );
+}
+
+.india-flag::before {
+
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+
+  height: 33.33%;
+
+  background: #ff9933;
+}
+
+.india-flag::after {
+
+  content: "";
+
+  position: absolute;
+
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+
+  height: 33.33%;
+
+  background: #138808;
+}
+
+.flag-wheel {
+
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+
+  transform:
+    translate(
+      -50%,
+      -50%
+    );
+
+  width: 8px;
+
+  height: 8px;
+
+  border:
+    1.8px solid
+    #000080;
+
+  border-radius: 50%;
+}
+
+.bharat-text {
+
+  color: white;
+
+  font-size: .85rem;
+
+  font-weight: 700;
+
+  letter-spacing: 1px;
+}
+
+/* =========================
+   GLOW ANIMATION
+========================= */
+
+@keyframes navbarGlow {
+
+  0% {
+
+    box-shadow:
+      0 0 15px
+      rgba(
+        212,
+        162,
+        76,
+        .25
+      );
+
+  }
+
+  50% {
+
+    box-shadow:
+      0 0 35px
+      rgba(
+        212,
+        162,
+        76,
+        .65
+      );
+
+  }
+
+  100% {
+
+    box-shadow:
+      0 0 15px
+      rgba(
+        212,
+        162,
+        76,
+        .25
+      );
+
+  }
+
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 900px) {
+
+  .navbar-links {
+    display: none;
+  }
+
+  .navbar-btn {
+    display: none;
+  }
+
+}
+
+.navbar a {
+
+  text-decoration: none;
+
+  color: inherit;
+}

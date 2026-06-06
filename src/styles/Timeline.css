@@ -1,0 +1,106 @@
+.timeline-page {
+  min-height: 100vh;
+  padding: 120px 10%;
+  position: relative;
+}
+
+.timeline-title {
+  text-align: center;
+  font-size: 4rem;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.timeline-subtitle {
+  text-align: center;
+  color: #9ca3af;
+  margin-bottom: 80px;
+}
+
+.timeline-container {
+  position: relative;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.timeline-line {
+  position: absolute;
+  left: 30px;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+
+  background: linear-gradient(
+    to bottom,
+    #f7c55a,
+    #8b5cf6
+  );
+
+  border-radius: 999px;
+
+  box-shadow:
+    0 0 15px #f7c55a,
+    0 0 30px #8b5cf6;
+}
+
+.timeline-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.timeline-dot {
+  width: 22px;
+  height: 22px;
+  background: #f7c55a;
+  border-radius: 50%;
+  margin-right: 50px;
+
+  box-shadow:
+    0 0 15px #f7c55a,
+    0 0 35px #f7c55a;
+}
+
+.timeline-card {
+  flex: 1;
+
+  background: rgba(10, 16, 40, 0.8);
+
+  border: 1px solid rgba(255,255,255,0.08);
+
+  backdrop-filter: blur(10px);
+
+  padding: 25px;
+
+  border-radius: 20px;
+
+  transition: 0.3s ease;
+
+  box-shadow:
+    0 0 25px rgba(139,92,246,0.15);
+}
+
+.timeline-card:hover {
+  transform: translateX(12px);
+
+  border-color: #8b5cf6;
+
+  box-shadow:
+    0 0 30px rgba(139,92,246,0.35);
+}
+
+.timeline-card h3 {
+  color: #f7c55a;
+  margin-bottom: 10px;
+}
+
+.timeline-card h4 {
+  color: white;
+  margin-bottom: 12px;
+}
+
+.timeline-card p {
+  color: #9ca3af;
+  line-height: 1.6;
+}

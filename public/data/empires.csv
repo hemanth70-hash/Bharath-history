@@ -1,0 +1,15 @@
+id,name,start_year,end_year,capital,founder,religion,government,peak_area,description,color
+1,Indus Valley Civilization,-3300,-1300,Harappa,Unknown,Unknown,Urban Civilization,,One of the world's earliest urban civilizations,#D97706
+2,Early Vedic Period,-1500,-1000,Various,Indo-Aryans,Vedic Religion,Tribal Society,,Early Vedic settlements in northwestern India,#2563EB
+3,Later Vedic Period,-1000,-600,Various,Indo-Aryans,Vedic Religion,Kingdoms,,Expansion into Gangetic plains,#1D4ED8
+4,Mahajanapadas,-600,-300,Various,Various,Hinduism,Monarchies and Republics,,Sixteen major states of ancient India,#7C3AED
+5,Magadha,-684,-321,Rajgir,Various,Hinduism,Monarchy,,Most powerful Mahajanapada,#9333EA
+6,Nanda Empire,-345,-322,Pataliputra,Mahapadma Nanda,Hinduism,Monarchy,,Predecessor to Mauryan Empire,#A855F7
+7,Mauryan Empire,-322,-185,Pataliputra,Chandragupta Maurya,Hinduism/Buddhism,Monarchy,,First major pan-Indian empire,#16A34A
+8,Shunga Empire,-185,-73,Pataliputra,Pushyamitra Shunga,Hinduism,Monarchy,,Succeeded the Mauryas,#22C55E
+9,Kanva Dynasty,-73,-28,Pataliputra,Vasudeva Kanva,Hinduism,Monarchy,,Succeeded the Shungas,#4ADE80
+10,Satavahana Dynasty,-230,220,Pratishthana,Simuka,Hinduism,Monarchy,,Major Deccan power,#0EA5E9
+11,Kushan Empire,30,375,Purushapura,Kujula Kadphises,Buddhism,Monarchy,,Controlled Silk Route trade,#06B6D4
+12,Gupta Empire,320,550,Pataliputra,Chandragupta I,Hinduism,Monarchy,,Golden Age of India,#F59E0B
+13,Vakataka Dynasty,250,500,Nandivardhana,Vindhyashakti,Hinduism,Monarchy,,Contemporary of Guptas,#F97316
+14,Harsha Empire,606,647,Kannauj,Harshavardhana,Hinduism/Buddhism,Monarchy,,Last major empire before early medieval period,#EF4444

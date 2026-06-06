@@ -1,0 +1,120 @@
+.timeline-section {
+  position: relative;
+}
+
+.timeline-container {
+
+  max-width: 900px;
+
+  margin: auto;
+
+  position: relative;
+}
+
+.timeline-container::before {
+
+  content: "";
+
+  position: absolute;
+
+  left: 20px;
+
+  top: 0;
+
+  width: 3px;
+
+  height: 100%;
+
+  background:
+    linear-gradient(
+      var(--gold),
+      var(--gold-light)
+    );
+}
+
+.timeline-item {
+
+  display: flex;
+
+  align-items: center;
+
+  margin-bottom: 60px;
+
+  position: relative;
+}
+
+.timeline-dot {
+
+  width: 40px;
+  height: 40px;
+
+  border-radius: 50%;
+
+  background: var(--gold);
+
+  box-shadow:
+    0 0 30px
+    rgba(
+      212,
+      162,
+      76,
+      .8
+    );
+
+  flex-shrink: 0;
+
+  z-index: 2;
+}
+
+.timeline-card {
+
+  margin-left: 30px;
+
+  flex: 1;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.05
+    );
+
+  backdrop-filter: blur(18px);
+
+  border:
+    1px solid
+    rgba(
+      255,
+      255,
+      255,
+      0.08
+    );
+
+  border-radius: 20px;
+
+  padding: 25px;
+
+  box-shadow:
+    0 20px 40px
+    rgba(
+      168,
+      85,
+      247,
+      .15
+    );
+}
+
+.timeline-year {
+
+  color: var(--gold);
+
+  font-weight: 700;
+}
+
+.timeline-card h3 {
+
+  color: white;
+
+  margin-top: 10px;
+}
