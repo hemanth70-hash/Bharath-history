@@ -1,0 +1,9 @@
+id,name,birth_year,death_year,category,related_empire,description,importance,image
+1,Chanakya,-375,-283,Scholar,Mauryan Empire,Advisor of Chandragupta Maurya and author of Arthashastra,Architect of Mauryan Empire,chanakya.jpg
+2,Gautama Buddha,-563,-483,Religious Leader,None,Founder of Buddhism,One of the most influential figures in world history,buddha.jpg
+3,Mahavira,-599,-527,Religious Leader,None,24th Tirthankara of Jainism,Major religious reformer,mahavira.jpg
+4,Megasthenes,-350,-290,Ambassador,Mauryan Empire,Greek ambassador to Chandragupta Maurya,Author of Indica,megasthenes.jpg
+5,Aryabhata,476,550,Scientist,Gupta Empire,Mathematician and astronomer,Pioneer of Indian mathematics,aryabhata.jpg
+6,Kalidasa,400,500,Poet,Gupta Empire,Classical Sanskrit poet,Greatest Sanskrit dramatist,kalidasa.jpg
+7,Faxian,337,422,Traveler,Gupta Empire,Chinese Buddhist monk and traveler,Recorded Gupta India,faxian.jpg
+8,Xuanzang,602,664,Traveler,Harsha Empire,Chinese Buddhist scholar,Documented Harsha's reign,xuanzang.jpg
